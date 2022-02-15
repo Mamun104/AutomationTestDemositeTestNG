@@ -32,3 +32,7 @@ Framework: TestNG
 
       allure generate allure-results --clean -o allure-report
       allure serve allure-results
+ 
+ 
+ ![Capture](https://user-images.githubusercontent.com/78067017/154113734-9182c791-7571-424d-917a-236b8bf36eb7.PNG)
+
