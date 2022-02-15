@@ -30,6 +30,6 @@ public class Setup {
     @AfterTest
     public void logOut() {
 
-        driver.quit();
+        driver.close();
     }
 }
