@@ -1,0 +1,64 @@
+{
+  "uid" : "ae7fa95a3fd6b8f4",
+  "name" : "Checking valid transaction",
+  "fullName" : "TestRunner.validTrans",
+  "historyId" : "738c2a4c00ac3a9afba1e183c786949f",
+  "time" : {
+    "start" : 1644876940836,
+    "stop" : 1644876943527,
+    "duration" : 2691
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "TestRunner"
+  }, {
+    "name" : "testClass",
+    "value" : "TestRunner"
+  }, {
+    "name" : "testMethod",
+    "value" : "validTrans"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "DemositeAutomationTest"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRunner"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-0K4P3UP"
+  }, {
+    "name" : "thread",
+    "value" : "41384@DESKTOP-0K4P3UP.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ae7fa95a3fd6b8f4.json",
+  "parameterValues" : [ ]
+}

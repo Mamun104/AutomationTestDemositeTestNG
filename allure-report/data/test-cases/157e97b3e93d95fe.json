@@ -1,0 +1,96 @@
+{
+  "uid" : "157e97b3e93d95fe",
+  "name" : "Checking the customer complain section",
+  "fullName" : "TestRunner.customerComplains",
+  "historyId" : "c6694c19b5f9a893bb952a2f1fa0ad38",
+  "time" : {
+    "start" : 1644906657426,
+    "stop" : 1644906664843,
+    "duration" : 7417
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1644906148281,
+      "stop" : 1644906197439,
+      "duration" : 49158
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "logOut",
+    "time" : {
+      "start" : 1644906681179,
+      "stop" : 1644906687724,
+      "duration" : 6545
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "TestRunner"
+  }, {
+    "name" : "testClass",
+    "value" : "TestRunner"
+  }, {
+    "name" : "testMethod",
+    "value" : "customerComplains"
+  }, {
+    "name" : "parentSuite",
+    "value" : "AutomationDemoSite"
+  }, {
+    "name" : "suite",
+    "value" : "AutomationDemoSite"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRunner"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-0K4P3UP"
+  }, {
+    "name" : "thread",
+    "value" : "4392@DESKTOP-0K4P3UP.Test worker(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "157e97b3e93d95fe.json",
+  "parameterValues" : [ ]
+}

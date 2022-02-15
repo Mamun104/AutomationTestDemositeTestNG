@@ -1,0 +1,93 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "element click intercepted: Element <div class=\"right-arrow customers w-slider-arrow-right\" role=\"button\" tabindex=\"0\" aria-controls=\"w-slider-mask-0\" aria-label=\"next slide\">...</div> is not clickable at point (1615, 877). Other element would receive the click: <div role=\"dialog\" aria-live=\"polite\" aria-modal=\"true\" aria-label=\"Consent Manager by Osano\" id=\"cc28a659-0d7a-4359-81bb-f84a8e8ca281\" aria-describedby=\"cc28a659-0d7a-4359-81bb-f84a8e8ca281__label\" class=\"osano-cm-window__dialog osano-cm-dialog osano-cm-dialog--position_bottom-right osano-cm-dialog--type_box\">...</div>\n  (Session info: chrome=98.0.4758.82)\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'DESKTOP-0K4P3UP', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [5bb6a338deed213a7f8179295084e191, clickElement {id=34c37dc5-5dbe-4298-9ccc-99cafc742c66}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\\Users\\USER\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53956}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53956/devtoo..., se:cdpVersion: 98.0.4758.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (5bb6a338deed213a7f8179295084e191)] -> xpath: //body/div[7]/div[1]/div[1]/div[1]/div[2]/div[3]]\nSession ID: 5bb6a338deed213a7f8179295084e191",
+      "children" : [ {
+        "name" : "Clicking right arrow to swipe pictures",
+        "uid" : "bd407c17a76baefe",
+        "parentUid" : "cd15ce2f5e2d2a70d0dd41807ad8777b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1644855951381,
+          "stop" : 1644855995029,
+          "duration" : 43648
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cd15ce2f5e2d2a70d0dd41807ad8777b"
+    }, {
+      "name" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=98.0.4758.82)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'DESKTOP-0K4P3UP', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [5bb6a338deed213a7f8179295084e191, actions {actions=[org.openqa.selenium.interactions.Sequence@3c49fab6]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\\Users\\USER\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53956}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53956/devtoo..., se:cdpVersion: 98.0.4758.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 5bb6a338deed213a7f8179295084e191",
+      "children" : [ {
+        "name" : "Go to Our Story page",
+        "uid" : "d130822395aa8459",
+        "parentUid" : "44204e9b4190935a0f4982832faf8b6f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1644855995776,
+          "stop" : 1644856031243,
+          "duration" : 35467
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 4,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "44204e9b4190935a0f4982832faf8b6f"
+    }, {
+      "name" : "chrome not reachable\n  (Session info: chrome=98.0.4758.82)\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'DESKTOP-0K4P3UP', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [e7fe197e44236b869136a3bcdba64f11, close {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\\Users\\USER\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50524}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50524/devtoo..., se:cdpVersion: 98.0.4758.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: e7fe197e44236b869136a3bcdba64f11",
+      "children" : [ {
+        "name" : "logOut",
+        "uid" : "50c044e071c505d7",
+        "parentUid" : "ae7587003ddf5651ea54fde2c7e78bf8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1644907251693,
+          "stop" : 1644907251693,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ae7587003ddf5651ea54fde2c7e78bf8"
+    }, {
+      "name" : "Index: 47, Size: 28",
+      "children" : [ {
+        "name" : "Clicking on linkedln icon",
+        "uid" : "d95c0f0eabd31871",
+        "parentUid" : "cf211232185898a822f9801457dc07ff",
+        "status" : "broken",
+        "time" : {
+          "start" : 1644938415666,
+          "stop" : 1644938420467,
+          "duration" : 4801
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 64,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cf211232185898a822f9801457dc07ff"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

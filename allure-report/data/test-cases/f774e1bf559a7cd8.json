@@ -1,0 +1,323 @@
+{
+  "uid" : "f774e1bf559a7cd8",
+  "name" : "Checking the security page work properly",
+  "fullName" : "TestRunner.checkWebSecurityPage",
+  "historyId" : "d0b92f092800ee9afd349cb8f5c733bf",
+  "time" : {
+    "start" : 1644943975531,
+    "stop" : 1644943986269,
+    "duration" : 10738
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 27,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1644943674340,
+      "stop" : 1644943713528,
+      "duration" : 39188
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "logOut",
+    "time" : {
+      "start" : 1644943997026,
+      "stop" : 1644943997438,
+      "duration" : 412
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "TestRunner"
+  }, {
+    "name" : "testClass",
+    "value" : "TestRunner"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkWebSecurityPage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "AutomationDemoSite"
+  }, {
+    "name" : "suite",
+    "value" : "AutomationDemoSite"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRunner"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-0K4P3UP"
+  }, {
+    "name" : "thread",
+    "value" : "30536@DESKTOP-0K4P3UP.Test worker(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "37548f2504bbdbc8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644942528800,
+        "stop" : 1644942538325,
+        "duration" : 9525
+      }
+    }, {
+      "uid" : "c2ff2514a240b6a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644941710752,
+        "stop" : 1644941719907,
+        "duration" : 9155
+      }
+    }, {
+      "uid" : "e514d1fd26ac037b",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (e72a5b7293b495c0b9ea81095f705f83)] -> xpath: //body/div[3]/div[1]/div[1]/nav[1]/div[1]/div[2]/a[1]] (tried for 60 second(s) with 500 milliseconds interval)\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'DESKTOP-0K4P3UP', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\\Users\\USER\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54798}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54798/devtoo..., se:cdpVersion: 98.0.4758.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: e72a5b7293b495c0b9ea81095f705f83",
+      "time" : {
+        "start" : 1644941254681,
+        "stop" : 1644941316764,
+        "duration" : 62083
+      }
+    }, {
+      "uid" : "8f85eb9872e698d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644940901628,
+        "stop" : 1644940909995,
+        "duration" : 8367
+      }
+    }, {
+      "uid" : "257b8a9ee663115c",
+      "status" : "failed",
+      "statusDetails" : "expected [Why Trust Sendwave] but found []",
+      "time" : {
+        "start" : 1644940194403,
+        "stop" : 1644940203778,
+        "duration" : 9375
+      }
+    }, {
+      "uid" : "78d9cbe1891b190d",
+      "status" : "failed",
+      "statusDetails" : "expected [Why Trust Sendwave] but found []",
+      "time" : {
+        "start" : 1644939745388,
+        "stop" : 1644939753805,
+        "duration" : 8417
+      }
+    }, {
+      "uid" : "7bd2c8e16ab0480c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644939505896,
+        "stop" : 1644939508737,
+        "duration" : 2841
+      }
+    }, {
+      "uid" : "3a6f0c5c774211",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644939084817,
+        "stop" : 1644939088060,
+        "duration" : 3243
+      }
+    }, {
+      "uid" : "7ccbf793e34384c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644938816366,
+        "stop" : 1644938825343,
+        "duration" : 8977
+      }
+    }, {
+      "uid" : "35f0de870db7c5ba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644938456951,
+        "stop" : 1644938465553,
+        "duration" : 8602
+      }
+    }, {
+      "uid" : "1ff8e68b383afd72",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644938220557,
+        "stop" : 1644938230291,
+        "duration" : 9734
+      }
+    }, {
+      "uid" : "e401a9da9578dec8",
+      "status" : "failed",
+      "statusDetails" : "expected [Why Trust Sendwave] but found []",
+      "time" : {
+        "start" : 1644937184474,
+        "stop" : 1644937193150,
+        "duration" : 8676
+      }
+    }, {
+      "uid" : "d137700af3303858",
+      "status" : "failed",
+      "statusDetails" : "expected [Why Trust Sendwave] but found []",
+      "time" : {
+        "start" : 1644936705738,
+        "stop" : 1644936715591,
+        "duration" : 9853
+      }
+    }, {
+      "uid" : "3735edfef9ecbf19",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644936308358,
+        "stop" : 1644936315283,
+        "duration" : 6925
+      }
+    }, {
+      "uid" : "1d2e45741bbdff81",
+      "status" : "failed",
+      "statusDetails" : "expected [Why Trust Sendwave] but found []",
+      "time" : {
+        "start" : 1644935819454,
+        "stop" : 1644935828034,
+        "duration" : 8580
+      }
+    }, {
+      "uid" : "c92a33eeb821f444",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644908203534,
+        "stop" : 1644908252083,
+        "duration" : 48549
+      }
+    }, {
+      "uid" : "ce66d9e6ff163d02",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n  (Session info: chrome=98.0.4758.82)\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'DESKTOP-0K4P3UP', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [e7fe197e44236b869136a3bcdba64f11, get {url=https://www.sendwave.com}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\\Users\\USER\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50524}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50524/devtoo..., se:cdpVersion: 98.0.4758.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: e7fe197e44236b869136a3bcdba64f11",
+      "time" : {
+        "start" : 1644907227104,
+        "stop" : 1644907239262,
+        "duration" : 12158
+      }
+    }, {
+      "uid" : "ce6eb02896389bdd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644906671517,
+        "stop" : 1644906676698,
+        "duration" : 5181
+      }
+    }, {
+      "uid" : "1b56fb90b2fe045c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644884815048,
+        "stop" : 1644884818795,
+        "duration" : 3747
+      }
+    }, {
+      "uid" : "125171d6a04e40e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644884380695,
+        "stop" : 1644884383790,
+        "duration" : 3095
+      }
+    }, {
+      "uid" : "f84a7fd7b4ddd184",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644883900005,
+        "stop" : 1644883903940,
+        "duration" : 3935
+      }
+    }, {
+      "uid" : "ada25f93965e741c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644883456963,
+        "stop" : 1644883460104,
+        "duration" : 3141
+      }
+    }, {
+      "uid" : "a4563c57e7a1a84d",
+      "status" : "broken",
+      "statusDetails" : "element not interactable: https://www.sendwave.com/security has no size and location\n  (Session info: headless chrome=98.0.4758.82)\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'DESKTOP-0K4P3UP', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [954f20c3d7b354fd10072d1a6ad4d856, actions {actions=[org.openqa.selenium.interactions.Sequence@49c17ba4]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\\Users\\USER\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57480}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57480/devtoo..., se:cdpVersion: 98.0.4758.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 954f20c3d7b354fd10072d1a6ad4d856",
+      "time" : {
+        "start" : 1644882683634,
+        "stop" : 1644882685400,
+        "duration" : 1766
+      }
+    }, {
+      "uid" : "df26d34d488214ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644882200359,
+        "stop" : 1644882204559,
+        "duration" : 4200
+      }
+    }, {
+      "uid" : "4d9193c90b5e9d79",
+      "status" : "broken",
+      "statusDetails" : "Unable to find element with locator By.xpath: //body/div[3]/div[1]/div[1]/nav[1]/div[1]/div[2]/a[1]\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'DESKTOP-0K4P3UP', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1644880988348,
+        "stop" : 1644880992333,
+        "duration" : 3985
+      }
+    }, {
+      "uid" : "fd3fa06f2da0a1a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644880723489,
+        "stop" : 1644880767761,
+        "duration" : 44272
+      }
+    }, {
+      "uid" : "7d40a109e0141acd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644880596075,
+        "stop" : 1644880626602,
+        "duration" : 30527
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f774e1bf559a7cd8.json",
+  "parameterValues" : [ ]
+}

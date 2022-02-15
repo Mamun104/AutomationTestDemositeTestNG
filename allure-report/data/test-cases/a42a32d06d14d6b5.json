@@ -1,0 +1,64 @@
+{
+  "uid" : "a42a32d06d14d6b5",
+  "name" : "Changing country from dropdown",
+  "fullName" : "TestRunner.countryChange",
+  "historyId" : "6b431989b4f4f6d7074648d34d55b482",
+  "time" : {
+    "start" : 1644906777282,
+    "stop" : 1644906777282,
+    "duration" : 0
+  },
+  "status" : "unknown",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "TestRunner"
+  }, {
+    "name" : "testClass",
+    "value" : "TestRunner"
+  }, {
+    "name" : "testMethod",
+    "value" : "countryChange"
+  }, {
+    "name" : "parentSuite",
+    "value" : "AutomationDemoSite"
+  }, {
+    "name" : "suite",
+    "value" : "AutomationDemoSite"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRunner"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-0K4P3UP"
+  }, {
+    "name" : "thread",
+    "value" : "10912@DESKTOP-0K4P3UP.Test worker(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a42a32d06d14d6b5.json",
+  "parameterValues" : [ ]
+}

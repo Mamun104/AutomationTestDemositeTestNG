@@ -1,0 +1,599 @@
+{
+  "uid" : "3b0a7f178c3dab79",
+  "name" : "Testing the Contact Us section",
+  "fullName" : "TestRunner.clickOnContactUs",
+  "historyId" : "ea2e27f537de334b234d79e54d34c5a8",
+  "time" : {
+    "start" : 1644943878335,
+    "stop" : 1644943935661,
+    "duration" : 57326
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 60,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1644943674340,
+      "stop" : 1644943713528,
+      "duration" : 39188
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "logOut",
+    "time" : {
+      "start" : 1644943997026,
+      "stop" : 1644943997438,
+      "duration" : 412
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "TestRunner"
+  }, {
+    "name" : "testClass",
+    "value" : "TestRunner"
+  }, {
+    "name" : "testMethod",
+    "value" : "clickOnContactUs"
+  }, {
+    "name" : "parentSuite",
+    "value" : "AutomationDemoSite"
+  }, {
+    "name" : "suite",
+    "value" : "AutomationDemoSite"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRunner"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-0K4P3UP"
+  }, {
+    "name" : "thread",
+    "value" : "30536@DESKTOP-0K4P3UP.Test worker(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "df7c8f672483cfa1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644942490429,
+        "stop" : 1644942500141,
+        "duration" : 9712
+      }
+    }, {
+      "uid" : "edda7d3072f4088",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644941662592,
+        "stop" : 1644941678254,
+        "duration" : 15662
+      }
+    }, {
+      "uid" : "9d00db0e6ae8ad9f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644941168738,
+        "stop" : 1644941176227,
+        "duration" : 7489
+      }
+    }, {
+      "uid" : "1d6a52b84393412",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644940158150,
+        "stop" : 1644940166889,
+        "duration" : 8739
+      }
+    }, {
+      "uid" : "d156bcd2cf2b9fe4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644939703301,
+        "stop" : 1644939715185,
+        "duration" : 11884
+      }
+    }, {
+      "uid" : "6bc84fd75b8298e4",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[contains(text(),'+1 888 966 8603 (US/CA)')]\"}\n  (Session info: chrome=98.0.4758.82)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'DESKTOP-0K4P3UP', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [46931367cae991246f97214b5d7dd30a, findElement {using=xpath, value=//a[contains(text(),'+1 888 966 8603 (US/CA)')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\\Users\\USER\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53874}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53874/devtoo..., se:cdpVersion: 98.0.4758.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 46931367cae991246f97214b5d7dd30a",
+      "time" : {
+        "start" : 1644939353828,
+        "stop" : 1644939480292,
+        "duration" : 126464
+      }
+    }, {
+      "uid" : "6f34557491841fb2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644938763540,
+        "stop" : 1644938773834,
+        "duration" : 10294
+      }
+    }, {
+      "uid" : "9dcd614e6e14f5b6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644938420492,
+        "stop" : 1644938426644,
+        "duration" : 6152
+      }
+    }, {
+      "uid" : "ae0a4ad466b9723c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644938192735,
+        "stop" : 1644938198418,
+        "duration" : 5683
+      }
+    }, {
+      "uid" : "8de3852f6fc2e408",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644937853815,
+        "stop" : 1644937860066,
+        "duration" : 6251
+      }
+    }, {
+      "uid" : "a5f8c13ebb912b9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644937160474,
+        "stop" : 1644937164626,
+        "duration" : 4152
+      }
+    }, {
+      "uid" : "43835f1e3be88665",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644936673835,
+        "stop" : 1644936678044,
+        "duration" : 4209
+      }
+    }, {
+      "uid" : "37dd46f7a090f9ae",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//body/div[10]/div[1]/div[1]/div[1]/div[6]/div[2]/div[2]/a[1]\"}\n  (Session info: chrome=98.0.4758.82)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'DESKTOP-0K4P3UP', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [34e5673bdd89317d948664b891dd781c, findElement {using=xpath, value=//body/div[10]/div[1]/div[1]/div[1]/div[6]/div[2]/div[2]/a[1]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\\Users\\USER\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62857}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62857/devtoo..., se:cdpVersion: 98.0.4758.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 34e5673bdd89317d948664b891dd781c",
+      "time" : {
+        "start" : 1644936220982,
+        "stop" : 1644936263633,
+        "duration" : 42651
+      }
+    }, {
+      "uid" : "805c0a458d4b8288",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644935791051,
+        "stop" : 1644935794020,
+        "duration" : 2969
+      }
+    }, {
+      "uid" : "2a7a0801cafd5325",
+      "status" : "broken",
+      "statusDetails" : "java.util.concurrent.TimeoutException\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'DESKTOP-0K4P3UP', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [a08e55f43b813de8360594fa4dc37487, findElement {using=xpath, value=//body/div[10]/div[1]/div[1]/div[1]/div[6]/div[2]/div[2]/a[1]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\\Users\\USER\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50878}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50878/devtoo..., se:cdpVersion: 98.0.4758.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: a08e55f43b813de8360594fa4dc37487",
+      "time" : {
+        "start" : 1644907420897,
+        "stop" : 1644907602986,
+        "duration" : 182089
+      }
+    }, {
+      "uid" : "e3c56ab3c696253e",
+      "status" : "broken",
+      "statusDetails" : "Unable to find element with locator By.xpath: //body/div[10]/div[1]/div[1]/div[1]/div[6]/div[2]/div[2]/a[1]\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'DESKTOP-0K4P3UP', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1644907046864,
+        "stop" : 1644907190536,
+        "duration" : 143672
+      }
+    }, {
+      "uid" : "cae7ea6992b67988",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//body/div[10]/div[1]/div[1]/div[1]/div[6]/div[2]/div[2]/a[1]\"}\n  (Session info: chrome=98.0.4758.82)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'DESKTOP-0K4P3UP', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [b831f9b3680436d3b7c7de020c51a6c0, findElement {using=xpath, value=//body/div[10]/div[1]/div[1]/div[1]/div[6]/div[2]/div[2]/a[1]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\\Users\\USER\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50123}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50123/devtoo..., se:cdpVersion: 98.0.4758.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: b831f9b3680436d3b7c7de020c51a6c0",
+      "time" : {
+        "start" : 1644906452117,
+        "stop" : 1644906544777,
+        "duration" : 92660
+      }
+    }, {
+      "uid" : "2cf83c556226eecb",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[contains(text(),'+1 888 966 8603 (US/CA)')]\"}\n  (Session info: chrome=98.0.4758.82)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'DESKTOP-0K4P3UP', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [58919d1f8ab9da2fe10645b258e1dd23, findElement {using=xpath, value=//a[contains(text(),'+1 888 966 8603 (US/CA)')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\\Users\\USER\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61086}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61086/devtoo..., se:cdpVersion: 98.0.4758.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 58919d1f8ab9da2fe10645b258e1dd23",
+      "time" : {
+        "start" : 1644884734800,
+        "stop" : 1644884794542,
+        "duration" : 59742
+      }
+    }, {
+      "uid" : "8a2fb1a927c50ee4",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//body/div[10]/div[1]/div[1]/div[1]/div[6]/div[2]/div[2]/a[1]\"}\n  (Session info: chrome=98.0.4758.82)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'DESKTOP-0K4P3UP', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [240e90db7b1eb0baa7a09720d188af40, findElement {using=xpath, value=//body/div[10]/div[1]/div[1]/div[1]/div[6]/div[2]/div[2]/a[1]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\\Users\\USER\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58574}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58574/devtoo..., se:cdpVersion: 98.0.4758.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 240e90db7b1eb0baa7a09720d188af40",
+      "time" : {
+        "start" : 1644884315425,
+        "stop" : 1644884357474,
+        "duration" : 42049
+      }
+    }, {
+      "uid" : "e962d769be56baae",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//body/div[10]/div[1]/div[1]/div[1]/div[6]/div[2]/div[2]/a[1]\"}\n  (Session info: chrome=98.0.4758.82)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'DESKTOP-0K4P3UP', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [f2cbb72d681a616c804397e5e062a253, findElement {using=xpath, value=//body/div[10]/div[1]/div[1]/div[1]/div[6]/div[2]/div[2]/a[1]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\\Users\\USER\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58249}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58249/devtoo..., se:cdpVersion: 98.0.4758.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: f2cbb72d681a616c804397e5e062a253",
+      "time" : {
+        "start" : 1644883785635,
+        "stop" : 1644883845720,
+        "duration" : 60085
+      }
+    }, {
+      "uid" : "78d5de8c53e01453",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//body/div[10]/div[1]/div[1]/div[1]/div[6]/div[2]/div[2]/a[1]\"}\n  (Session info: chrome=98.0.4758.82)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'DESKTOP-0K4P3UP', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [901ed968f51ab95f7c4228fd6da72bac, findElement {using=xpath, value=//body/div[10]/div[1]/div[1]/div[1]/div[6]/div[2]/div[2]/a[1]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\\Users\\USER\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57933}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57933/devtoo..., se:cdpVersion: 98.0.4758.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 901ed968f51ab95f7c4228fd6da72bac",
+      "time" : {
+        "start" : 1644883378532,
+        "stop" : 1644883421375,
+        "duration" : 42843
+      }
+    }, {
+      "uid" : "8ffaa56b33f45e1",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//body/div[10]/div[1]/div[1]/div[1]/div[6]/div[2]/div[2]/a[1]\"}\n  (Session info: headless chrome=98.0.4758.82)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'DESKTOP-0K4P3UP', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [954f20c3d7b354fd10072d1a6ad4d856, findElement {using=xpath, value=//body/div[10]/div[1]/div[1]/div[1]/div[6]/div[2]/div[2]/a[1]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\\Users\\USER\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57480}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57480/devtoo..., se:cdpVersion: 98.0.4758.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 954f20c3d7b354fd10072d1a6ad4d856",
+      "time" : {
+        "start" : 1644882624203,
+        "stop" : 1644882666262,
+        "duration" : 42059
+      }
+    }, {
+      "uid" : "37842d06bbf709bb",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//body/div[10]/div[1]/div[1]/div[1]/div[6]/div[2]/div[2]/a[1]\"}\n  (Session info: chrome=98.0.4758.82)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'DESKTOP-0K4P3UP', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [2ed1326853d04710fb88bd2d378e0aa0, findElement {using=xpath, value=//body/div[10]/div[1]/div[1]/div[1]/div[6]/div[2]/div[2]/a[1]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\\Users\\USER\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57155}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57155/devtoo..., se:cdpVersion: 98.0.4758.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 2ed1326853d04710fb88bd2d378e0aa0",
+      "time" : {
+        "start" : 1644882044319,
+        "stop" : 1644882087614,
+        "duration" : 43295
+      }
+    }, {
+      "uid" : "6ba4376b16d9337",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644878328690,
+        "stop" : 1644878336542,
+        "duration" : 7852
+      }
+    }, {
+      "uid" : "8822733d52885b05",
+      "status" : "broken",
+      "statusDetails" : "Unable to find element with locator By.xpath: //a[contains(text(),'+1 888 966 8603 (US/CA)')]\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'DESKTOP-0K4P3UP', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1644877164456,
+        "stop" : 1644877213750,
+        "duration" : 49294
+      }
+    }, {
+      "uid" : "4c29eaaa7d64be8a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644876713016,
+        "stop" : 1644876718473,
+        "duration" : 5457
+      }
+    }, {
+      "uid" : "a7fbbdc15d601a40",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644876174057,
+        "stop" : 1644876178212,
+        "duration" : 4155
+      }
+    }, {
+      "uid" : "fa71f1795f0259a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644875797987,
+        "stop" : 1644875807685,
+        "duration" : 9698
+      }
+    }, {
+      "uid" : "dc155a467eabc9d7",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//body/div[10]/div[1]/div[1]/div[1]/div[6]/div[2]/div[2]/a[1]\"}\n  (Session info: chrome=98.0.4758.82)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'DESKTOP-0K4P3UP', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [4be047b09c0e6945ce69981b9fd75f27, findElement {using=xpath, value=//body/div[10]/div[1]/div[1]/div[1]/div[6]/div[2]/div[2]/a[1]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\\Users\\USER\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:59489}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59489/devtoo..., se:cdpVersion: 98.0.4758.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 4be047b09c0e6945ce69981b9fd75f27",
+      "time" : {
+        "start" : 1644875058003,
+        "stop" : 1644875102731,
+        "duration" : 44728
+      }
+    }, {
+      "uid" : "8ecc509c91054021",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[contains(text(),'+1 888 966 8603 (US/CA)')]\"}\n  (Session info: chrome=98.0.4758.82)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'DESKTOP-0K4P3UP', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [425f8b733325269a19b754630bb7def6, findElement {using=xpath, value=//a[contains(text(),'+1 888 966 8603 (US/CA)')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\\Users\\USER\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:59317}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59317/devtoo..., se:cdpVersion: 98.0.4758.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 425f8b733325269a19b754630bb7def6",
+      "time" : {
+        "start" : 1644874899113,
+        "stop" : 1644874942685,
+        "duration" : 43572
+      }
+    }, {
+      "uid" : "56af28bc57ba635c",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//body/div[10]/div[1]/div[1]/div[1]/div[6]/div[2]/div[2]/a[1]\"}\n  (Session info: chrome=98.0.4758.82)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'DESKTOP-0K4P3UP', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [8a7ec8cb171faa14a0c9eb9b31f5bba3, findElement {using=xpath, value=//body/div[10]/div[1]/div[1]/div[1]/div[6]/div[2]/div[2]/a[1]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\\Users\\USER\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58997}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58997/devtoo..., se:cdpVersion: 98.0.4758.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 8a7ec8cb171faa14a0c9eb9b31f5bba3",
+      "time" : {
+        "start" : 1644874560205,
+        "stop" : 1644874602387,
+        "duration" : 42182
+      }
+    }, {
+      "uid" : "30a1343ac4fedfb8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644873558906,
+        "stop" : 1644873574228,
+        "duration" : 15322
+      }
+    }, {
+      "uid" : "d14afc1f6d16d1ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644873149700,
+        "stop" : 1644873169177,
+        "duration" : 19477
+      }
+    }, {
+      "uid" : "27b563c7d0b74f68",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644872739482,
+        "stop" : 1644872754182,
+        "duration" : 14700
+      }
+    }, {
+      "uid" : "8403508e928fe74",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[contains(text(),'+1 888 966 8603 (US/CA)')]\"}\n  (Session info: chrome=98.0.4758.82)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'DESKTOP-0K4P3UP', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [3f29444a55ab94046d23ebc4c32722bd, findElement {using=xpath, value=//a[contains(text(),'+1 888 966 8603 (US/CA)')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\\Users\\USER\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60495}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60495/devtoo..., se:cdpVersion: 98.0.4758.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 3f29444a55ab94046d23ebc4c32722bd",
+      "time" : {
+        "start" : 1644872454903,
+        "stop" : 1644872492360,
+        "duration" : 37457
+      }
+    }, {
+      "uid" : "6b14d33dfdece559",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644872266146,
+        "stop" : 1644872284282,
+        "duration" : 18136
+      }
+    }, {
+      "uid" : "bcf316cd5ae89d05",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[contains(text(),'+1 888 966 8603 (US/CA)')]\"}\n  (Session info: chrome=98.0.4758.82)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'DESKTOP-0K4P3UP', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [99d57fe7a6fc7a407cf6075a6cc35b94, findElement {using=xpath, value=//a[contains(text(),'+1 888 966 8603 (US/CA)')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\\Users\\USER\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60118}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60118/devtoo..., se:cdpVersion: 98.0.4758.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 99d57fe7a6fc7a407cf6075a6cc35b94",
+      "time" : {
+        "start" : 1644872010075,
+        "stop" : 1644872059598,
+        "duration" : 49523
+      }
+    }, {
+      "uid" : "4453ef7277817995",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//body/div[10]/div[1]/div[1]/div[1]/div[6]/div[2]/div[2]/a[1]\"}\n  (Session info: chrome=98.0.4758.82)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'DESKTOP-0K4P3UP', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [a9b44853603ef2205fdcce3566387f0b, findElement {using=xpath, value=//body/div[10]/div[1]/div[1]/div[1]/div[6]/div[2]/div[2]/a[1]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\\Users\\USER\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:59867}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59867/devtoo..., se:cdpVersion: 98.0.4758.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: a9b44853603ef2205fdcce3566387f0b",
+      "time" : {
+        "start" : 1644871753677,
+        "stop" : 1644871795697,
+        "duration" : 42020
+      }
+    }, {
+      "uid" : "65e6ff7e0652226d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644871497875,
+        "stop" : 1644871506297,
+        "duration" : 8422
+      }
+    }, {
+      "uid" : "7e2bf4b711c58d55",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//body/div[10]/div[1]/div[1]/div[1]/div[6]/div[2]/div[2]/a[1]\"}\n  (Session info: chrome=98.0.4758.82)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'DESKTOP-0K4P3UP', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [db2d6d7938638178511f49001c23078f, findElement {using=xpath, value=//body/div[10]/div[1]/div[1]/div[1]/div[6]/div[2]/div[2]/a[1]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\\Users\\USER\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:59344}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59344/devtoo..., se:cdpVersion: 98.0.4758.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: db2d6d7938638178511f49001c23078f",
+      "time" : {
+        "start" : 1644871127458,
+        "stop" : 1644871170523,
+        "duration" : 43065
+      }
+    }, {
+      "uid" : "e744d4b4907af74b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644869575165,
+        "stop" : 1644869589059,
+        "duration" : 13894
+      }
+    }, {
+      "uid" : "dfe9513748e88a54",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644869252107,
+        "stop" : 1644869255198,
+        "duration" : 3091
+      }
+    }, {
+      "uid" : "b83e0b4ab9b38127",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//body/div[10]/div[1]/div[1]/div[1]/div[6]/div[2]/div[2]/a[1]\"}\n  (Session info: chrome=98.0.4758.82)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'DESKTOP-0K4P3UP', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [2eee85a00c68605f20dacc498f70cb6d, findElement {using=xpath, value=//body/div[10]/div[1]/div[1]/div[1]/div[6]/div[2]/div[2]/a[1]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\\Users\\USER\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60117}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60117/devtoo..., se:cdpVersion: 98.0.4758.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 2eee85a00c68605f20dacc498f70cb6d",
+      "time" : {
+        "start" : 1644868800775,
+        "stop" : 1644868842794,
+        "duration" : 42019
+      }
+    }, {
+      "uid" : "2b7fdab706713d06",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644868524597,
+        "stop" : 1644868529378,
+        "duration" : 4781
+      }
+    }, {
+      "uid" : "d909300471b05905",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644868247689,
+        "stop" : 1644868251290,
+        "duration" : 3601
+      }
+    }, {
+      "uid" : "e63720da1a28aa47",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644867978384,
+        "stop" : 1644867985103,
+        "duration" : 6719
+      }
+    }, {
+      "uid" : "7ff5f26be64d2f01",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644867311887,
+        "stop" : 1644867315733,
+        "duration" : 3846
+      }
+    }, {
+      "uid" : "1ee541575e06c883",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644866889477,
+        "stop" : 1644866894117,
+        "duration" : 4640
+      }
+    }, {
+      "uid" : "577f0a4bc4683ab9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644866433535,
+        "stop" : 1644866451771,
+        "duration" : 18236
+      }
+    }, {
+      "uid" : "e28277ba8ef467a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644865632159,
+        "stop" : 1644865635869,
+        "duration" : 3710
+      }
+    }, {
+      "uid" : "dbfe5c052d748171",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644864992623,
+        "stop" : 1644864998269,
+        "duration" : 5646
+      }
+    }, {
+      "uid" : "f2b04023da775303",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644864688656,
+        "stop" : 1644864691315,
+        "duration" : 2659
+      }
+    }, {
+      "uid" : "c4b7c35aef63642a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644864376662,
+        "stop" : 1644864380143,
+        "duration" : 3481
+      }
+    }, {
+      "uid" : "15302f31cc7469ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644863038590,
+        "stop" : 1644863041325,
+        "duration" : 2735
+      }
+    }, {
+      "uid" : "56d28e87fba98a6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644862778880,
+        "stop" : 1644862783555,
+        "duration" : 4675
+      }
+    }, {
+      "uid" : "3fd00e36be5a13c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644862518120,
+        "stop" : 1644862521281,
+        "duration" : 3161
+      }
+    }, {
+      "uid" : "c28abc0796553594",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644862114146,
+        "stop" : 1644862120029,
+        "duration" : 5883
+      }
+    }, {
+      "uid" : "afe3b26fea4ef824",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644854906343,
+        "stop" : 1644854909330,
+        "duration" : 2987
+      }
+    }, {
+      "uid" : "efe7944160225adb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644848502068,
+        "stop" : 1644848508920,
+        "duration" : 6852
+      }
+    }, {
+      "uid" : "5de5c699164f3f38",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n  (Session info: chrome=98.0.4758.82)\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'DESKTOP-0K4P3UP', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [8bb277a102b523621fa07141dd24f293, get {url=https://www.sendwave.com}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\\Users\\USER\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53143}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53143/devtoo..., se:cdpVersion: 98.0.4758.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 8bb277a102b523621fa07141dd24f293",
+      "time" : {
+        "start" : 1644847568735,
+        "stop" : 1644847580762,
+        "duration" : 12027
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3b0a7f178c3dab79.json",
+  "parameterValues" : [ ]
+}

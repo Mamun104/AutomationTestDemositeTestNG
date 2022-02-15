@@ -22,10 +22,9 @@ public class Setup {
         options.addArguments("--headed");
         driver = new ChromeDriver(options);
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(40));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(200));
 
     }
-
 
     @AfterTest
     public void logOut() {

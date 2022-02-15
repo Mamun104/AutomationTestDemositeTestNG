@@ -1,0 +1,420 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Default Suite",
+    "children" : [ {
+      "name" : "DemositeAutomationTest",
+      "children" : [ {
+        "name" : "TestRunner",
+        "children" : [ {
+          "name" : "Clicking on instagram icon",
+          "uid" : "d68df18b33cb6cb7",
+          "parentUid" : "608e5ed9858512e4959c9587c7f42088",
+          "status" : "passed",
+          "time" : {
+            "start" : 1644854909366,
+            "stop" : 1644854911853,
+            "duration" : 2487
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 2,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "Clicking right arrow to swipe pictures",
+          "uid" : "bd407c17a76baefe",
+          "parentUid" : "608e5ed9858512e4959c9587c7f42088",
+          "status" : "broken",
+          "time" : {
+            "start" : 1644855951381,
+            "stop" : 1644855995029,
+            "duration" : 43648
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 5,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Go to Our Story page",
+          "uid" : "d130822395aa8459",
+          "parentUid" : "608e5ed9858512e4959c9587c7f42088",
+          "status" : "broken",
+          "time" : {
+            "start" : 1644855995776,
+            "stop" : 1644856031243,
+            "duration" : 35467
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 4,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Checking the transaction our story page",
+          "uid" : "16b2689e541d1929",
+          "parentUid" : "608e5ed9858512e4959c9587c7f42088",
+          "status" : "passed",
+          "time" : {
+            "start" : 1644878350886,
+            "stop" : 1644878357980,
+            "duration" : 7094
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Checking the security page work properly",
+          "uid" : "599d240db3a0683b",
+          "parentUid" : "608e5ed9858512e4959c9587c7f42088",
+          "status" : "passed",
+          "time" : {
+            "start" : 1644879853910,
+            "stop" : 1644879893289,
+            "duration" : 39379
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 1,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Clicking on linkedln icon",
+          "uid" : "d95c0f0eabd31871",
+          "parentUid" : "608e5ed9858512e4959c9587c7f42088",
+          "status" : "broken",
+          "time" : {
+            "start" : 1644938415666,
+            "stop" : 1644938420467,
+            "duration" : 4801
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 64,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        } ],
+        "uid" : "608e5ed9858512e4959c9587c7f42088"
+      } ],
+      "uid" : "4f0293b436c78b696df1f338d350d643"
+    } ],
+    "uid" : "8399274b4bb69ec8699907dd6ef7de4e"
+  }, {
+    "name" : "AutomationDemoSite",
+    "children" : [ {
+      "name" : "AutomationDemoSite",
+      "children" : [ {
+        "name" : "TestRunner",
+        "children" : [ {
+          "name" : "logOut",
+          "uid" : "50c044e071c505d7",
+          "parentUid" : "0cecd3ff85e81a758d08b41af12096d3",
+          "status" : "broken",
+          "time" : {
+            "start" : 1644907251693,
+            "stop" : 1644907251693,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 2,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Changing country from dropdown",
+          "uid" : "7bc4c784cecf42dd",
+          "parentUid" : "0cecd3ff85e81a758d08b41af12096d3",
+          "status" : "unknown",
+          "time" : {
+            "start" : 1644943674169,
+            "stop" : 1644943674169,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 71,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Get website title",
+          "uid" : "e835dfdcc422ec9c",
+          "parentUid" : "0cecd3ff85e81a758d08b41af12096d3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1644943713713,
+            "stop" : 1644943773956,
+            "duration" : 60243
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 52,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "Changing website language",
+          "uid" : "1de2fe20e2714791",
+          "parentUid" : "0cecd3ff85e81a758d08b41af12096d3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1644943775567,
+            "stop" : 1644943808796,
+            "duration" : 33229
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 53,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "Go to rating page",
+          "uid" : "a634497f2d587cfe",
+          "parentUid" : "0cecd3ff85e81a758d08b41af12096d3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1644943809290,
+            "stop" : 1644943836158,
+            "duration" : 26868
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 49,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "Click on view countries",
+          "uid" : "9c4878de181db0e0",
+          "parentUid" : "0cecd3ff85e81a758d08b41af12096d3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1644943836562,
+            "stop" : 1644943853595,
+            "duration" : 17033
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 48,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "Check if an image exists",
+          "uid" : "5b7925cc9f7ea773",
+          "parentUid" : "0cecd3ff85e81a758d08b41af12096d3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1644943853822,
+            "stop" : 1644943864426,
+            "duration" : 10604
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 52,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "Checking valid transaction",
+          "uid" : "2ca09d99562867b0",
+          "parentUid" : "0cecd3ff85e81a758d08b41af12096d3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1644943864919,
+            "stop" : 1644943871208,
+            "duration" : 6289
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 57,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "Clicking Download App section",
+          "uid" : "10e5935ba784619f",
+          "parentUid" : "0cecd3ff85e81a758d08b41af12096d3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1644943871295,
+            "stop" : 1644943873217,
+            "duration" : 1922
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 56,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "Clicking on instagram icon",
+          "uid" : "40a5272b426c3d37",
+          "parentUid" : "0cecd3ff85e81a758d08b41af12096d3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1644943873241,
+            "stop" : 1644943875090,
+            "duration" : 1849
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 73,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "Clicking on facebook icon",
+          "uid" : "7bc8002ac407833f",
+          "parentUid" : "0cecd3ff85e81a758d08b41af12096d3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1644943875164,
+            "stop" : 1644943878218,
+            "duration" : 3054
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 75,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "Testing the Contact Us section",
+          "uid" : "3b0a7f178c3dab79",
+          "parentUid" : "0cecd3ff85e81a758d08b41af12096d3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1644943878335,
+            "stop" : 1644943935661,
+            "duration" : 57326
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 60,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "Testing the FAQ section",
+          "uid" : "cd9a426228ed5da5",
+          "parentUid" : "0cecd3ff85e81a758d08b41af12096d3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1644943935747,
+            "stop" : 1644943948363,
+            "duration" : 12616
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 63,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "Checking the customer complain section",
+          "uid" : "ba3acd9740532b07",
+          "parentUid" : "0cecd3ff85e81a758d08b41af12096d3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1644943948589,
+            "stop" : 1644943960269,
+            "duration" : 11680
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 52,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "Checking the  our story page work properly",
+          "uid" : "9ed524b42310f676",
+          "parentUid" : "0cecd3ff85e81a758d08b41af12096d3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1644943960674,
+            "stop" : 1644943975391,
+            "duration" : 14717
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 25,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "Checking the security page work properly",
+          "uid" : "f774e1bf559a7cd8",
+          "parentUid" : "0cecd3ff85e81a758d08b41af12096d3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1644943975531,
+            "stop" : 1644943986269,
+            "duration" : 10738
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 27,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "Checking the career page work properly",
+          "uid" : "19d91086abaef184",
+          "parentUid" : "0cecd3ff85e81a758d08b41af12096d3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1644943986563,
+            "stop" : 1644943996817,
+            "duration" : 10254
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 29,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        } ],
+        "uid" : "0cecd3ff85e81a758d08b41af12096d3"
+      } ],
+      "uid" : "c2f73182a5f2cf35cc92de0ed14ed054"
+    } ],
+    "uid" : "39abea9ecefcac5517f637015ba97e81"
+  } ]
+}
